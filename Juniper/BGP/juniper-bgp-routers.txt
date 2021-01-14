@@ -1,0 +1,16 @@
+; This file should contain a list of Juniper BGP routers
+; and peers.  You should prefix each router with the lowercase
+; r and each peer with a lowercase p.  If one router has
+; more than one peer, they should be separated by commas.
+;
+; Examples:
+;
+; One Juniper router with one peer
+; r10.10.10.10, p3.3.3.3
+;
+; Two Juniper routers, one with one peer, the other with multiple
+; r10.20.30.40, p4.4.4.4
+; r192.168.1.22, p5.5.5.5, p6.6.6.6, p7.7.7.7
+;
+; Enter your routers and peers below WITHOUT the semicolon (;)
+r10.10.10.10, p1.1.1.1
